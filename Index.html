@@ -1,100 +1,132 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Co-Operate First Bank – Relevé de Compte</title>
+  <title>Credit Suisse Statement of Account</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
+      font-size: 14px;
+      background: #fff;
+      color: #000;
       margin: 0;
-      padding: 0;
-      background-color: #f7f9fc;
-      color: #333;
+      padding: 40px;
     }
     .statement {
-      max-width: 700px;
-      margin: 40px auto;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 30px 40px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      max-width: 800px;
+      margin: auto;
     }
     .header {
       text-align: center;
-      border-bottom: 2px solid #003366;
-      padding-bottom: 20px;
-      margin-bottom: 30px;
+      border-bottom: 2px solid #000;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
     }
     .header h1 {
-      color: #003366;
+      font-size: 20px;
       margin: 0;
-      font-size: 22px;
     }
-    .header p {
-      font-size: 14px;
-      color: #666;
+    .info {
+      margin-bottom: 30px;
     }
-    .section {
-      margin-bottom: 25px;
+    .info p {
+      margin: 4px 0;
     }
-    .section h2 {
-      font-size: 16px;
-      color: #003366;
-      margin-bottom: 10px;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
     }
-    .section p {
-      margin: 5px 0;
-      font-size: 14px;
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 10px;
+      text-align: left;
     }
-    .highlight {
-      font-weight: bold;
-      color: #222;
+    th {
+      background-color: #f2f2f2;
     }
     .footer {
       font-size: 12px;
-      color: #777;
+      color: #555;
       text-align: center;
-      margin-top: 40px;
-      border-top: 1px solid #ccc;
-      padding-top: 15px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
     }
   </style>
 </head>
 <body>
   <div class="statement">
     <div class="header">
-      <h1>Co-Operate First Bank</h1>
-      <p>Division de Conformité et Services Relationnels<br/>Zurich, Suisse</p>
-      <p><strong>Relevé de Compte – Dossier Successoral</strong></p>
+      <h1>CREDIT SUISSE AG</h1>
+      <p>Statement of Account</p>
     </div>
 
-    <div class="section">
-      <h2>Détails du Compte</h2>
-      <p><span class="highlight">Nom du bénéficiaire :</span> Jean Camoin</p>
-      <p><span class="highlight">Titulaire du compte (décédé) :</span> Florian Camoin</p>
-      <p><span class="highlight">Numéro de compte :</span> ****5286-CH</p>
-      <p><span class="highlight">Solde actuel :</span> CHF 728,500.00</p>
-      <p><span class="highlight">Statut du compte :</span> Dormant – En cours de réattribution</p>
+    <div class="info">
+      <p><strong>Account Holder:</strong> Florian Camoin</p>
+      <p><strong>Account Number:</strong> CH93 0483 5012 3456 7800 9</p>
+      <p><strong>Currency:</strong> CHF</p>
+      <p><strong>Statement Period:</strong> 01 Jan 2022 – 31 Dec 2022</p>
     </div>
 
-    <div class="section">
-      <h2>État du Dossier</h2>
-      <p><span class="highlight">Statut de la vérification :</span> Identité validée</p>
-      <p><span class="highlight">Documents reçus :</span> Pièce d’identité</p>
-      <p><span class="highlight">Référence de transfert :</span> CFB/UBS-CS/004872</p>
-      <p><span class="highlight">Responsable de dossier :</span> Mme A. Renaud – Bureau de Conformité</p>
-    </div>
-
-    <div class="section">
-      <h2>Prochaines Étapes</h2>
-      <p>Votre accès personnel est en cours de finalisation. Une notification contenant vos identifiants de connexion et instructions complètes sera envoyée à votre adresse e-mail enregistrée.</p>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Debit (CHF)</th>
+          <th>Credit (CHF)</th>
+          <th>Balance (CHF)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/01/2022</td>
+          <td>Opening Balance</td>
+          <td></td>
+          <td></td>
+          <td>318,467.00</td>
+        </tr>
+        <tr>
+          <td>28/02/2022</td>
+          <td>Monthly Service Fee</td>
+          <td>35.00</td>
+          <td></td>
+          <td>318,432.00</td>
+        </tr>
+        <tr>
+          <td>31/03/2022</td>
+          <td>Custody Maintenance</td>
+          <td>25.00</td>
+          <td></td>
+          <td>318,407.00</td>
+        </tr>
+        <tr>
+          <td>30/06/2022</td>
+          <td>Inactive Account Charge</td>
+          <td>50.00</td>
+          <td></td>
+          <td>318,357.00</td>
+        </tr>
+        <tr>
+          <td>30/09/2022</td>
+          <td>Monthly Service Fee</td>
+          <td>35.00</td>
+          <td></td>
+          <td>318,322.00</td>
+        </tr>
+        <tr>
+          <td>31/12/2022</td>
+          <td>Year-End Balance Confirmation</td>
+          <td></td>
+          <td></td>
+          <td>318,322.00</td>
+        </tr>
+      </tbody>
+    </table>
 
     <div class="footer">
-      Ce relevé est délivré dans le cadre du protocole de transition des comptes dormants sous la supervision réglementaire suisse.<br/>
-      Co-Operate First Bank, Zurich – CH
+      Credit Suisse AG, Zurich – SWITZERLAND<br/>
+      This document was generated as part of institutional archiving under Swiss banking regulations.
     </div>
   </div>
 </body>
